@@ -8,3 +8,7 @@
     npm install --global expo-cli
 
 # To make the start work change it to expo start instead of react-native start in package.json file.   
+
+
+#Adding the local folder to github as a repo
+ link => https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
