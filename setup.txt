@@ -1,0 +1,10 @@
+# Step 1
+    npm install -g create-react-native-app
+
+# Step 2
+    create-react-native-app first-reactive-native-app
+
+#To install expo cli type // This will allow to interact with your phone using expo app. or alternatvely we can use android studio.
+    npm install --global expo-cli
+
+# To make the start work change it to expo start instead of react-native start in package.json file.   
