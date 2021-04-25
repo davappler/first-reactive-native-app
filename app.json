@@ -1,0 +1,12 @@
+{
+  "name": "first-reactive-native-app",
+  "displayName": "first-reactive-native-app",
+  "expo": {
+    "name": "first-reactive-native-app",
+    "slug": "first-reactive-native-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
