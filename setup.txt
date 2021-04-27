@@ -12,3 +12,38 @@
 
 #Adding the local folder to github as a repo
  link => https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
+
+
+ # Installing node version
+    nvm install 14.0.0
+
+# for expo fixing
+    expo install expo-ads-admo    
+
+
+# Connecting firebase to react native app.
+    npm install firebase
+
+    in the app.js type this => import * as firebase from "firebase";
+
+
+ # Free code camp setup link => https://www.freecodecamp.org/news/react-native-firebase-tutorial/   
+
+
+ firebaseConfig = {
+    apiKey: (this one's easy, it's in the 'General' section in your project settings page, aka the Gear icon button),
+    authDomain: "{project_id}.firebaseapp.com", (without brackets)
+    databaseURL: "https://{project_id}.firebaseio.com",
+    projectId: (again, found in 'General' section in Project Settings),
+    storageBucket: "{project_id}.appspot.com",
+    messagingSenderId: (found in 'Cloud Messaging' section in Project Settings)
+ }
+
+
+
+ errors tackled
+  changed version of firebase, changed it in package.json and removed node_modules and did npm install
+  #changed the variable
+    Navigate to your node_modules/react-native/Libraries/Core/Timers/JSTimers.js file.
+    Look for the variable MAX_TIMER_DURATION_MS
+    Change its value to 10000 * 1000
