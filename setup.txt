@@ -47,3 +47,5 @@
     Navigate to your node_modules/react-native/Libraries/Core/Timers/JSTimers.js file.
     Look for the variable MAX_TIMER_DURATION_MS
     Change its value to 10000 * 1000
+
+Continue freecodecamp tutorial form point 6, login did not work so sort it out, it says permission denied, not enough permission.    
